@@ -61,7 +61,7 @@ export default {
     user-select: none;
   }
   aside img {
-    margin-top: 80px;
+    margin-top: 40px;
   }
   aside > .name {
     margin-top: 40px;
