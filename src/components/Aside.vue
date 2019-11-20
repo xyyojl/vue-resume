@@ -130,7 +130,7 @@ export default {
   aside > .big {
     display: none;
   }
-  aside > .samll {
+  aside > .small {
     display: inline;
     font-size: 14px;
   }
