@@ -48,4 +48,12 @@ p.way {
 svg {
   margin-right: 10px;
 }
+@media (max-width: 550px) {
+  p.way{
+    font-size: 20px;
+  }
+  .main {
+    min-height: 85vh;
+  }
+}
 </style>

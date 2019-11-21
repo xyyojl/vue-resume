@@ -19,7 +19,7 @@
         <router-link :to="{name:'Blog'}">博客</router-link>
       </div>
       <div class="inside">
-        <router-link :to="{name:'Contact'}">联系我</router-link>
+        <router-link :to="{name:'Contact'}">联系</router-link>
       </div>
     </div>
     <footer class="icons">
@@ -28,7 +28,7 @@
           <use xlink:href="#icon-GitHub"></use>
         </svg>
       </a>
-      <a href="#"  target="_blank">
+      <a href="#">
         <svg class="icon" aria-hidden="true">
           <use xlink:href="#icon-zhihu-circle-fill"></use>
         </svg>
@@ -96,7 +96,9 @@ export default {
     display: flex;
     flex-direction: row;
     align-items: center;
-    position: relative;
+    position: fixed;
+    width: 100vw;
+    z-index: 3;
   }
   aside > span {
     color: #fafafa;
@@ -133,6 +135,9 @@ export default {
   aside > .small {
     display: inline;
     font-size: 14px;
+  }
+  aside > .link > .inside {
+    border: none;
   }
 }
 

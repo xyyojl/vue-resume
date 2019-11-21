@@ -5,12 +5,16 @@
         <h1>我是区家乐</h1>
         <div class="line"></div>
         <p>在我看来，前端工程师能够通过写代码之后，可以直接看到自己做的作品，很有成就感，而且能够接触到很多使用不同技术的小伙伴。</p>
-        <p>教育背景 2020 应届本科 五邑大学 信息管理与信息系统</p>
-        <p>意向职位 前端开发</p>
+        <p><span class="bold">教育背景</span> 2020 应届本科 五邑大学 信息管理与信息系统</p>
+        <p><span class="bold">意向职位</span> 前端开发</p>
         <p>本人思维严谨，有较强的学习及适应能力，热衷探索新鲜技术，常浏览技术网站，关注技术动态。工作主动认真，责任心、执行力及抗压性强。 </p>
         <div class="buttonWrapper">
-          <button class="download">下载 PDF 版简历</button>
-          <button class="skip">联系我</button>
+          <a href="../../static/resume.pdf" download="2019-区家乐-应聘前端开发工程师.pdf">
+            <button class="download">下载 PDF 版简历</button>
+          </a>
+          <router-link :to="{name:'Contact'}">
+            <button class="skip">联系我</button>
+          </router-link>
         </div>
         <div class="wrap">
           <span class="ribbon6">个人信息</span>
@@ -58,7 +62,7 @@ main {
 .message > .buttonWrapper {
   user-select: none;
 }
-.message > .buttonWrapper > button {
+.message > .buttonWrapper button {
   height: 40px;
   font-size: 14px;
   border-radius: 2px;
@@ -74,6 +78,9 @@ main {
 button.download:hover,
 button.skip:hover {
   opacity: 0.8;
+}
+span.bold {
+  font-weight: bold;
 }
 .wrap {
   position: absolute;
@@ -148,6 +155,14 @@ button.skip:hover {
     width: auto;
     padding: 1em 2em;
     margin: 0;
+    min-height: 85vh;
+  }
+}
+@media (max-width: 1200px) and (min-width: 1126px) {
+  .main > .message > .buttonWrapper {
+    position: absolute;
+    top: 450px;
+    right: 80px;
   }
 }
 </style>
