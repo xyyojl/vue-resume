@@ -3,7 +3,7 @@
     <div class="main">
       <div class="message">
         <h1>我是区家乐</h1>
-        <div class="inline"></div>
+        <div class="line"></div>
         <p>在我看来，前端工程师能够通过写代码之后，可以直接看到自己做的作品，很有成就感，而且能够接触到很多使用不同技术的小伙伴。</p>
         <p>教育背景 2020 应届本科 五邑大学 信息管理与信息系统</p>
         <p>意向职位 前端开发</p>
@@ -45,8 +45,8 @@ main {
   margin-right: 35px;
 }
 .message > .line {
-  width: 70px;
-  border: 2px solid #607d8b;
+  width: 150px;
+  border: 1px solid #607d8b;
 }
 .message > p {
   color: #252728;
