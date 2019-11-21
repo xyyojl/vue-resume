@@ -12,6 +12,7 @@
         <p><span class="bold">意向职位</span> 前端开发</p>
         <p>本人思维严谨，有较强的学习及适应能力，热衷探索新鲜技术，常浏览技术网站，关注技术动态。工作主动认真，责任心、执行力及抗压性强。 </p>
         <div class="buttonWrapper">
+          <!-- /vue-resume/dist/static/ -->
           <a href="./static/resume.pdf" download="2019-区家乐-应聘前端开发工程师.pdf">
             <button class="download">下载 PDF 版简历</button>
           </a>
