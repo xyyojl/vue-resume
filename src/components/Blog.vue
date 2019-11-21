@@ -25,6 +25,7 @@ a {
   color: blue;
   text-decoration: underline;
   font-weight: bold;
+  user-select: auto;
 }
 .main > .line {
   width: 60px;

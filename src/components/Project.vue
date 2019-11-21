@@ -71,7 +71,7 @@ export default {
   font-size: 16px;
 }
 h4 {
-  margin-bottom: 0;
+  margin-bottom: 10px;
 }
 .main > .line {
   width: 120px;
@@ -88,8 +88,8 @@ h4 {
 }
 .inner > img {
   height: 187.5px;
-  /* width: 269.8px; */
   margin-left: 10px;
+  border: 1px solid #607d8b;
 }
 .link {
   height: 40px;

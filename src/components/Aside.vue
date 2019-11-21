@@ -23,12 +23,12 @@
       </div>
     </div>
     <footer class="icons">
-      <a href="#">
+      <a href="https://github.com/xyyojl" target="_blank">
         <svg class="icon" aria-hidden="true">
           <use xlink:href="#icon-GitHub"></use>
         </svg>
       </a>
-      <a href="#">
+      <a href="#"  target="_blank">
         <svg class="icon" aria-hidden="true">
           <use xlink:href="#icon-zhihu-circle-fill"></use>
         </svg>
