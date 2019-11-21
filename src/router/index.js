@@ -21,7 +21,7 @@ export default new Router({
       component: Skill
     },
     {
-      path: '/rroject',
+      path: '/project',
       name: 'Project',
       component: Project
     },
