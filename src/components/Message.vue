@@ -2,6 +2,9 @@
   <main>
     <div class="main">
       <div class="message">
+        <div class="wrap">
+          <span class="ribbon6">个人信息</span>
+        </div>
         <h1>我是区家乐</h1>
         <div class="line"></div>
         <p>在我看来，前端工程师能够通过写代码之后，可以直接看到自己做的作品，很有成就感，而且能够接触到很多使用不同技术的小伙伴。</p>
@@ -9,15 +12,12 @@
         <p><span class="bold">意向职位</span> 前端开发</p>
         <p>本人思维严谨，有较强的学习及适应能力，热衷探索新鲜技术，常浏览技术网站，关注技术动态。工作主动认真，责任心、执行力及抗压性强。 </p>
         <div class="buttonWrapper">
-          <a href="../../static/resume.pdf" download="2019-区家乐-应聘前端开发工程师.pdf">
+          <a href="./static/resume.pdf" download="2019-区家乐-应聘前端开发工程师.pdf">
             <button class="download">下载 PDF 版简历</button>
           </a>
           <router-link :to="{name:'Contact'}">
             <button class="skip">联系我</button>
           </router-link>
-        </div>
-        <div class="wrap">
-          <span class="ribbon6">个人信息</span>
         </div>
       </div>
     </div>
@@ -153,7 +153,7 @@ span.bold {
   }
   .main {
     width: auto;
-    padding: 1em 2em;
+    padding: 3em 2em;
     margin: 0;
     min-height: 85vh;
   }

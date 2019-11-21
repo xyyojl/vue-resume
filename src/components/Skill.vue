@@ -17,7 +17,6 @@
         <li><p>了解 <span class="bold">小程序开发</span> 及相关概念，有相关开发配置经验。 </p></li>
         <li><p>了解 <span class="bold">HTTP基础知识</span> ，了解 <span class="bold">常见的前端性能优化</span> 策略。</p></li>
         <li><p>掌握 <span class="bold">常用的Git命令</span> ，掌握GitHub的基本用法。</p></li>
-        <!-- <span class="bold"></span> -->
       </ul>
     </div>
   </main>
