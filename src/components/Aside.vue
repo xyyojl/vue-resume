@@ -47,7 +47,7 @@ export default {
 
 <style scoped>
 /* min-width: 1125px max-width: 1125px */
-@media (min-width: 1125px) {
+@media (min-width: 1126px) {
   aside{
     position: fixed;
     top: 0;
