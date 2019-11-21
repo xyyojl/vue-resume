@@ -12,6 +12,16 @@
   display: flex;
   flex-direction: column;
 }
+.main > .line {
+  border: 1px solid #607d8b;
+}
+.main > p {
+  color: #252728;
+  font-size: 16px;
+  line-height: 1.6em;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
 .wrap {
   position: absolute;
   top: -8px;

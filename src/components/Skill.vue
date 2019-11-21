@@ -23,11 +23,10 @@
 </template>
 
 <script>
-import '../../static/echarts.min.js'
 export default {
   name: 'Skill',
   mounted () {
-    var myChart = echarts.init(document.getElementById('main'))
+    var myChart = this.$echarts.init(document.getElementById('main'))
     var option = {
       tooltip: {},
       radar: {
@@ -75,17 +74,9 @@ export default {
 }
 .main > .line {
   width: 120px;
-  border: 1px solid #607d8b;
 }
 #main {
   align-self: center;
-}
-.main > p {
-  color: #252728;
-  font-size: 16px;
-  line-height: 1.6em;
-  letter-spacing: 1px;
-  font-weight: 300;
 }
 ul {
   margin: 0;
