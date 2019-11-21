@@ -66,22 +66,14 @@ main {
   font-weight: bold;
   padding: 0 1em;
   cursor: pointer;
-}
-button.download {
-  border: none;
-  background: #607d8b;
+  background: rgb(64, 158, 255);
   color: #fff;
+  transition: 0.3s;
+  border: none;
 }
-button.download:hover {
-  background: #444;
-}
-button.skip {
-  border: 1px solid #607d8b;
-  background: #ddd;
-  color: #607d8b;
-}
+button.download:hover,
 button.skip:hover {
-  background: #f0f0f0;
+  opacity: 0.8;
 }
 .wrap {
   position: absolute;

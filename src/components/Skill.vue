@@ -42,7 +42,7 @@ export default {
         indicator: [
           {name: 'JavaScript', max: 100},
           {name: 'JQuery', max: 100},
-          {name: 'React', max: 100},
+          // {name: 'React', max: 100},
           {name: '小程序', max: 100},
           {name: 'Vue', max: 100},
           {name: 'HTTP', max: 100},
@@ -56,7 +56,7 @@ export default {
           type: 'radar',
           data: [
             {
-              value: [90, 75, 80, 80, 80, 85, 90, 90],
+              value: [85, 75, 80, 80, 85, 85, 90],
               name: '自我评价'
             }
           ]
